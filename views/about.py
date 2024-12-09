@@ -26,8 +26,8 @@ with col2:
     st.title("Hi, I am Devin!", anchor=False)
     st.markdown(
         """
-        Check out my <a href="http://localhost:8501/research" target="_self">research</a> and 
-        <a href="http://localhost:8501/projects" target="_self">projects</a> to learn more about me.
+        Check out my <a href="http://devinsetiawan.streamlit.app/research" target="_self">research</a> and 
+        <a href="http://devinsetiawan.streamlit.app/projects" target="_self">projects</a> to learn more about me.
         """,
         unsafe_allow_html=True
     )
@@ -55,9 +55,9 @@ st.subheader("About This Website", anchor=False)
 st.write("This website host my portfolio, where I showcase my research projects, personal projects, and teaching materials. Here are some sections you can explore:")
 st.markdown(
     """
-    - **🔎 <a href="http://localhost:8501/research" target="_self">Research</a>**: My recent research projects and publications.
-    - **📁 <a href="http://localhost:8501/projects" target="_self">Projects</a>**: My personal projects and open-source contributions.
-    - **🎓 <a href="http://localhost:8501/teaching" target="_self">Teaching</a>**: My teaching experiences.
+    - **🔎 <a href="http://devinsetiawan.streamlit.app/research" target="_self">Research</a>**: My recent research projects and publications.
+    - **📁 <a href="http://devinsetiawan.streamlit.app/projects" target="_self">Projects</a>**: My personal projects and open-source contributions.
+    - **🎓 <a href="http://devinsetiawan.streamlit.app/teaching" target="_self">Teaching</a>**: My teaching experiences.
     """,
     unsafe_allow_html=True
 )
