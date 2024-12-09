@@ -39,7 +39,7 @@ def show_card1():
         with col2:
             st.link_button("💻 GitHub Repo", url="https://github.com/DevinRS/iCARE", use_container_width=True)
         with col3:
-            st.link_button("📕 Paper", url="https://medrxiv.org/cgi/content/short/2024.07.24.24310941v1", use_container_width=True)
+            st.link_button("📕 Paper", url="https://medrxiv.org/cgi/content/short/2024.07.24.24310941v2", use_container_width=True)
 
 def show_card2():
     with st.container(border=True):
