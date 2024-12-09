@@ -32,7 +32,7 @@ def card4():
 # -- HERO SECTION --
 st.image("assets/project_hero.jpg")
 st.header("Projects") 
-st.markdown("""This page summarizes my school and personal project in many domain of Computer Science. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_self">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
+st.markdown("""This page summarizes my school and personal project in many domain of Computer Science. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_blank">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
 
 # -- HIGHLIGHTED RESEARCH --
 st.write("---")

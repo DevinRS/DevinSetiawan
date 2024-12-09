@@ -1,9 +1,20 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+        a {
+            text-decoration: none;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # -- HERO SECTION --
 st.image("assets/teaching_hero.jpg")
 st.header("Teaching") 
-st.markdown("""This page summarizes my teaching and tutoring experiences. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_self">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
+st.markdown("""This page summarizes my teaching and tutoring experiences. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_blank">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
 
 # -- Teaching --
 st.write("---")

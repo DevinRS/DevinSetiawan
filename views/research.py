@@ -32,7 +32,7 @@ def card2():
 # -- HERO SECTION --
 st.image("assets/research_hero.jpg")
 st.header("Research") 
-st.markdown("""This page summarizes my recent research projects and publications. My research interests include predictive modeling, interpretable machine learning, and individualized clinical assessments. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_self">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
+st.markdown("""This page summarizes my recent research projects and publications. My research interests include predictive modeling, interpretable machine learning, and individualized clinical assessments. To see more of my work, visit my <a href="https://github.com/DevinRS" target="_blank">GitHub page</a> or check out my <a href="http://localhost:8501/about" target="_self">about</a> page.""", unsafe_allow_html=True)
 
 # -- HIGHLIGHTED RESEARCH --
 st.write("---")
